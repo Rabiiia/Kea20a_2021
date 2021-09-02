@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Kingdom {
+public abstract class Kingdom {
+
+    public Boolean isAlive() {
+        return true;
+    }
 }

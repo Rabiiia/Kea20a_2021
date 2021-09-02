@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Movement {
+public interface Movement {
+
+    public default String move(){
+        return "Swiqqity";
+    };
 }
