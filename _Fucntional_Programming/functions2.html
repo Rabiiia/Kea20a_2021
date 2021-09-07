@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  const list = ["jave", 123];
+
+  function printer(something) {
+    console.log(something);
+  }
+
+  // HoF (higher order function) = a fucntion that takes a funtion as an argument
+  // list.forEach(printer); <<------ foreach er en function der tar printer som argument (printer er os en function)
+
+  // list.forEach(element -> printer(element)); <------------ dette udtryk vil være korrekt i java koden
+ //  list.forEach(element => printer(element)); <-- korrekt i javascript
+
+ // list.forEach((element, index, list) => printer(element)); <----- argumenter er i console som vist forneden
+  //  list.forEach(console.log);
+</script>
+</body>
+</html>
