@@ -1,10 +1,10 @@
-package com.example.trash_api;
+package edu.dk.paintings;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrashApiApplicationTests {
+class PaintingsApplicationTests {
 
     @Test
     void contextLoads() {

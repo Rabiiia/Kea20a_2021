@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Concatenator {
+public interface Concatenator {
+    public String cat(String firstString, String secondString);
 }
